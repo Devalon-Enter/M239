@@ -1,7 +1,7 @@
 # Einleitung allgemein
 Einleitung allgemein (Erklärungen zum ganzen M239-Projekt)
 
-[Link zu Firmengründungspräsntation](http:....)
+[Link zu Firmengründungspräsntation](https://tbzedu-my.sharepoint.com/:p:/g/personal/daniel_greil_edu_tbz_ch/EYC8WECcEM1Cg78pJKewZiEBWfhp25l38c8qqwLF0WDdvQ?e=W5ZkL1)
 
 # Inhaltsverszeichnis
 
