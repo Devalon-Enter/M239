@@ -6,9 +6,9 @@ Einleitung allgemein (Erklärungen zum ganzen M239-Projekt)
 # Inhaltsverszeichnis
 
 ## [A: Anforderungen](A/README.md)
-- 1. Kapitel Firmengrösse
-- 2. Kapitel Traffic
-- 3. Kapitel E-Mail Service?
+- Firmengrösse
+- Traffic
+- E-Mail Service?
 
 
 ## [I: Know-How & Begriffe](I/README.md)
