@@ -1,16 +1,15 @@
 # Anforderungen
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
+- [Wie gross ist die Firma?](#Wie-gross-ist-die-Firma?)
+- [Wie gross ist der zu erwartende Web-Trafic?](#web-traffic)
+- [Braucht es ein Web-Mail?](#weitere-kapitel)
 
-### 1-Kapitel 
-Text
+### Wie gross ist die Firma?
+Unsere Firma sollte nicht sehr gross sein. Das Ziel ist es, dass die Firma um die 10 Mitarbeiter beinhalten sollte. 
 
-### 2-Kapitel 
-Text
+### Wie gross ist der zu erwartende Web-Trafic? 
+Wir erwarten einen Web-Traffic von rund 15'000 Clicks per Monat. 
 
-
-### Weitere-Kapitel 
-Text
+### Braucht es ein Web-Mail? 
+Ja, ein Web-Mail sollte vorhanden sein. Denn nur so können wir mit unseren Kunden Kontakt aufnehmen. 
