@@ -81,9 +81,72 @@ Diese 9 RR-Typen gibt es und werden in diesen Zonendateien gebraucht um verschie
  
 
  Als ein weiteres Beispiel, können wir den MX-Record nehmen. Dieser hält fest, wie SMTP über welchen Mail-Server routen muss.
- 
+
 ## Server Informationen
-Text
+### Windows
+Wenn wir die Informationen eines Mailservers herausbekommen wollen, dann können wir dies mit einem sehr einfachen Befehl herausfinden. Auf Windows funktioniert dies so.
+
+```
+nslookup -type=mx tbz.ch
+```
+
+Als ein kleines Beispiel. Das ergebnis würde dann so aussehen:
+
+```
+Server:  STBZDC12.tbz.local
+Address:  10.62.99.8
+
+Nicht autorisierende Antwort:
+tbz.ch  MX preference = 10, mail exchanger = tbz-ch.mail.protection.outlook.com
+
+tbz-ch.mail.protection.outlook.com      internet address = 104.47.11.10
+tbz-ch.mail.protection.outlook.com      internet address = 104.47.11.74
+```
+ 
+### Linux
+
+Wenn wir dies jedoch auf Linux ausführen wollen, dann müssen wir hier den ``dig`` befehl verwenden. Dieser funktioniert so:
+
+```
+dig mx tbz.ch
+```
+
+Das Ergebnis dieser Query sieht dann wie folgt aus:
+
+```
+; <<>> DiG 9.18.12-0ubuntu0.22.04.1-Ubuntu <<>> mx tbz.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 63693
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 3
+
+ 
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;tbz.ch.                IN    MX
+
+ 
+
+;; ANSWER SECTION:
+tbz.ch.            5    IN    MX    10 tbz-ch.mail.protection.outlook.com.
+
+ 
+
+;; ADDITIONAL SECTION:
+tbz-ch.mail.protection.outlook.com. 5 IN A    104.47.11.10
+tbz-ch.mail.protection.outlook.com. 5 IN A    104.47.11.202
+
+ 
+
+;; Query time: 63 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Tue Apr 04 11:35:53 CEST 2023
+;; MSG SIZE  rcvd: 117
+```
+
+Wie wir hier sehen können, bei beiden Versionen, gibt es uns in der jeweiligen Antwortsektionen, den namen des zuständigen Mailservers für die Domäne ``tbz.ch`` zurück.
 
 ## Proxy
 Text
