@@ -1,9 +1,9 @@
 # Anforderungen
 
 ## Inhaltsverszeichnis
-- [Wie gross ist die Firma?](#Wie-gross-ist-die-Firma?)
-- [Wie gross ist der zu erwartende Web-Trafic?](#web-traffic)
-- [Braucht es ein Web-Mail?](#weitere-kapitel)
+- [Wie gross ist die Firma?](#wie-gross-ist-die-firma)
+- [Wie gross ist der zu erwartende Web-Trafic?](#wie-gross-ist-der-zu-erwartende-web-trafic)
+- [Braucht es ein Web-Mail?](#braucht-es-ein-web-mail)
 
 ### Wie gross ist die Firma?
 Unsere Firma sollte nicht sehr gross sein. Das Ziel ist es, dass die Firma um die 10 Mitarbeiter beinhalten sollte. Auch wenn die Firma nicht sehr gross ist, sollte dahinter nicht viel stehen, da wir ein doch sehr simples Produkt vermarkten werden. Wasser.
