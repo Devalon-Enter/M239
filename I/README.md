@@ -182,5 +182,15 @@ Ein Reverse-Proxy, funktioniert, wie der Name schon sagt, umgekehrt. Heisst, wen
 Mit Proxy ist es möglich vor allem die Sicherheit zu erhöhen und ein gewisses Mass an anonymität gewinnen. Ausserdem ist es möglich, über diese Proxy Geräte noch weitere Dinge zu verwalten, wie zum Beispiel die Bandbreite, die Verfügbarkeit und verschiedene weiter Sicherheitseinstellungen.
 
 Jedoch sei gesagt, dass Proxy hauptsächlich dann funktioniert, wenn man Browser anfragen macht. Dabei wird nicht der gesamte Datenverkehr eines Clients geschützt. Falls man einen Schutz für sämtlichen Datenverkehr haben möchte, dann sollte man sich VPN zurechtlegen.
+
 ## DMZ
-Text
+
+Ein DMZ oder auch ausgeschrieben **D**e**m**ilitarisiere **Z**one wird sehr oft dann gebraucht, wenn man dienste wie Webserver, Mailserver usw in einem Netz am laufen hat. Eine DMZ ist eine Zone in einem Privaten Netzwerk, welches vom Intranet getrennt ist.
+
+Hier eine grafische Darstellung eines DMZ Netzwerks:
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/7/78/Demilitarized_Zone_Diagram.png "Darstellung eines DMZ")
+
+Hier können wir sehen, dass unser Netzwerk (Gelb) getrennt ist. In zwei Zonen. Die eine Zone, wo unsere Clients usw. stehen, wird **Intranet oder LAN** genannt. Die andere Zone, ist unser DMZ Zone und alles, was ausserhalb der Firewall ist, wird **WAN oder Internet** genannt. DMZ dient dem Zweck, den Traffic, welcher über unsere Firewall geht, in die DMZ einzulassen und den Kontakt zwischen dem LAN und der DMZ zu verhindern. Das DMZ kann nur auf das WAN zugreifen, jedoch **nie** mit dem LAN in Kontakt treten.
+
+Dies erhöht die Sicherheit des eigenen Netzwerkes Drastisch.
