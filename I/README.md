@@ -149,7 +149,38 @@ tbz-ch.mail.protection.outlook.com. 5 IN A    104.47.11.202
 Wie wir hier sehen können, bei beiden Versionen, gibt es uns in der jeweiligen Antwortsektionen, den namen des zuständigen Mailservers für die Domäne ``tbz.ch`` zurück.
 
 ## Proxy
-Text
+Es ist eine möglichkeit immerhin einwenig Kontrolle über den eigenen Datenfluss zu bekommen. Ein Proxy ist dazu da, den direkten Datenaustausch zwischen Client und Server zu unterbinden bzw. den Austausch zu überbrücken. Bei einem Proxy handelt es sich um ein physisches Gerät (meist ein Server ganz selten ein Personal Computer) dieser Agiert meist innerhalb eines Netzwerks.
 
+Grafische Darstellung eines Proxy:
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Schematic_Proxy_Server.svg/2880px-Schematic_Proxy_Server.svg.png "Darstellung eines Proxy im Netzwerk")
+
+Hier können wir erkennen, dass der Proxy (Orange) zwischen den beiden anderen Geräten (Weiss) steht und so die Verbindung nicht direkt zum Empfänger führt.
+
+Bei Proxy wird zwischen zwei hauptsächlich gebräuchlichen Typen unterschieden. Dabei gibt es das sogenannte **Forward-Proxy** und das gegenstück zum Forward-Proxy, das **Reverse-Proxy**. Wir werden beide Typen so gut es geht untersuchen und erklären.
+
+### Forward-Proxy
+
+Ein Forward-Proxy ist die normale Art und Weise, wie ein Proxy verwendet wird. Dabei steht ein Proxy Server in einem Privaten Netzwerk und verwaltet den Datatraffic. Was passiert denn da genau? <br>
+
+Nun wenn ein Client aus dem eigenen Netz eine Anfrage an eine Webseite macht, dann geht diese Anfrage, nicht wie sonst direkt an den Webserver dieser Webseite aber stattdessen an unseren Proxy. Dieser Proxy muss vom Client wirklich direkt angesprochen werden, sonst wird die Anfrage so wie normalerweise direkt an den Webserver mit der IP-Adresse unseres Clients als absender. <br>
+Nun aber, ist es uns möglich diese Anfrage über unseren Proxy zu leiten. Dieser nimmt dann diese Anfrage und schickt sie mit seiner eigenen IP-Adresse an den Webserver. Dieser Webserver, kann den Originalen Absender nicht erkennen. Für ihn ist der Absender dieser Anfrage immernoch unser Proxy.
+
+Auf genau dem selben Weg, geht auch die Anfrage wieder zurück. Zuerst, geht sie an den Proxy, der wiederum die IP-Adresse auf unser Netzwerk wechselt und die Antwort an unseren Client schickt.
+
+### Reverse-Proxy
+
+Das Gegenteil eines Forward-Proxy und eine Art und Weise, wie sie normalerweise nur Unternehmen wirklich gebrauchen, den Reverse-Proxy.
+
+Hier grafisch dargestellt, das Schema eines Reverse-Proxy:
+
+![alt text](https://www.psychz.net/content/proxy/reverse.jpg "Darstellung eines Reverse-Proxy Schemas")
+
+Ein Reverse-Proxy, funktioniert, wie der Name schon sagt, umgekehrt. Heisst, wenn unser Client nun eine Anfrage an einen Webserver in einem externen Netz macht, dann geht diese Anfrage nicht wie normalerweise direkt auf den Webserver, sondern sie geht auf den Proxy dieses Webservers. Wir selbst haben in unserem Netz keinen Proxy konfiguriert auf den wir zugreifen. Lediglich der Webserver verwendet einen Proxy, der in das Externe Firmennetz hineingeht. Und nicht wie beim normalen Proxy nach draussen ins Internet.
+
+## Proxy Vor- und Nachteile
+
+Mit Proxy ist es möglich vor allem die Sicherheit zu erhöhen und ein gewisses Mass an anonymität gewinnen. Ausserdem ist es möglich, über diese Proxy Geräte noch weitere Dinge zu verwalten, wie zum Beispiel die Bandbreite, die Verfügbarkeit und verschiedene weiter Sicherheitseinstellungen.
+
+Jedoch sei gesagt, dass Proxy hauptsächlich dann funktioniert, wenn man Browser anfragen macht. Dabei wird nicht der gesamte Datenverkehr eines Clients geschützt. Falls man einen Schutz für sämtlichen Datenverkehr haben möchte, dann sollte man sich VPN zurechtlegen.
 ## DMZ
 Text
