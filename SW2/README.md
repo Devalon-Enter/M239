@@ -8,6 +8,7 @@
 - [Konfiguration](#konfiguration)
     - [dovecot](#dovecot-config)
     - [postfix](#postfix-config)
+- [Testen](#testen)
 
 ## Auswahl
 Für den Mailserver haben wir uns für [postfix](https://ubuntu.com/server/docs/mail-postfix) und für [dovecot](https://ubuntu.com/server/docs/mail-dovecot) entschieden.
