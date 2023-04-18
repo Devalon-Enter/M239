@@ -1,16 +1,24 @@
-# Know-How & Begriffe
+# Reflexion
 
 ## Inhaltsverszeichnis
-- [1. Kapitel](#1-kapitel)
-- [2. Kapitel](#2-kapitel)
-- [Weitere Kapitel](#weitere-kapitel)
+- [Daniel](#daniel)
+- [Lorin](#lorin)
 
-### 1-Kapitel 
-Text
+---
 
-### 2-Kapitel 
-Text
+## Daniel 
+Dies ist meine Reflexion zu dem Projekt, welche ich mit dem Herrn Lorin Faber machen durfte. 
+### Ergebnis
 
+### Probleme
 
-### Weitere-Kapitel 
+### Zusammenarbeit
+
+### Zeit Management
+
+### Zusammenfassung
+
+- - -
+
+## Lorin 
 Text
