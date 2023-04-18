@@ -65,7 +65,8 @@ Einleitung allgemein (Erklärungen zum ganzen M239-Projekt)
 
 
 ## [Reflexion](R/README.md)
-Lernprozess festgehalten (Form frei wählbar)
+- Reflexion Daniel
+- Reflexion Lorin
 
 
 - - -
