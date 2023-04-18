@@ -24,34 +24,44 @@ Einleitung allgemein (Erklärungen zum ganzen M239-Projekt)
 - ....weitere Kapitel (Stichworte)
 
 ## [SW1: Webserver installieren/konfigurieren](SW1/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- Vorbereitung
+- Installation
+- Konfiguration
 
 ## [SW2: Mailserver installieren/konfigurieren](SW2/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- Auswahl
+- Installation
+    - dovecot
+    - postfix
+- Konfiguration
+    - dovecot
+    - postfix
+- Testen
 
 ## [SW3: Weiterer Serverdienst installieren/konfigurieren](SW3/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- Einführung
+- Auswahl
+- Installation
+- Konfiguration
+- Testing
 
 ## [SW4: Protokollierung](SW4/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- Was sind Logfiles
+    - Ereignislog
+- Steuerung der Logfiles
+    - Änderung vom Ablageort der Logfiles
+    - Konfigurationsmöglichkeiten der Logfiles
  
-## [B1: Zertifikate](B2/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+## [B1: Zertifikate](B1/README.md)
+- Self Signed Certificate
+- Installieren von HTTPS
+- Umleitung HTTPS
 
 ## [T: Testing](T/README.md)
-- 1. Kapitel (Stichwort)
-- 2. Kapitel (Stichwort)
-- ....weitere Kapitel (Stichworte)
+- Was sind Tests
+- Funktionstests
+- Sicherheitstests
+- Lasttests
 
 
 ## [Reflexion](R/README.md)
