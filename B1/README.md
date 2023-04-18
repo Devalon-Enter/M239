@@ -6,8 +6,8 @@
 - [Umleitung HTTPS](#umleitung-http-auf-https)
 
 ## Self Signed Certificate
-Wie die Website [entrust.com](https://www.entrust.com/resources/faq/what-is-a-self-signed-certificate#:~:text=A%20self%2Dsigned%20TLS%2FSSL,for%20public%20applications%20and%20websites.) beschreibt, sind Self Signed Certificates nicht von offiziellen CA ausgestellt worden. 
-> A self-signed TLS/SSL certificate is not signed by a publicly trusted certificate authority (CA) but instead by the developer or company that is responsible for the website; as they are not signed by a publicly trusted CA, they are usually considered unsafe for public applications and websites.
+Wie die Website [entrust.com](https://www.entrust.com/resources/faq/what-is-a-self-signed-certificate#:~:text=A%20self%2Dsigned%20TLS%2FSSL,for%20public%20applications%20and%20websites.) beschreibt, sind Self Signed Certificates nicht von offiziellen CA ausgestellt worden. <br>
+```A self-signed TLS/SSL certificate is not signed by a publicly trusted certificate authority (CA) but instead by the developer or company that is responsible for the website; as they are not signed by a publicly trusted CA, they are usually considered unsafe for public applications and websites.```
 <br>
 Hier werde ich beschreiben, wie genau wir ein Self Signed Certifikat auf unserem Server installiert und evtl. auch konfiguriert haben.
 <br>
